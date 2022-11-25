@@ -16,5 +16,5 @@ char* StrCpy(char* scr)
 	return Scr;
 }
 /**
-远程edit
+本地编辑
 **/
