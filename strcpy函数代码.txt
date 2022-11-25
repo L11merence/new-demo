@@ -1,0 +1,17 @@
+#include<stdlib.h>
+char* StrCpy(char* scr)
+{
+	int len = 0;
+	while (scr[len] != '\0')
+	{
+		len++;
+	}
+	char* Scr = (char*)malloc(sizeof(char) * (len + 1));
+	for (int i = 0; i < len; i++)
+	{
+		Scr[i] = scr[i];
+	}
+	scr[len] = '\0';
+
+	return Scr;
+}
